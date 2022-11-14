@@ -11,7 +11,7 @@ https://app.datacamp.com/learn/assignments
 
 De volgende Assignments voor de minor zijn voltooid op DataCamp:
 
-1. Introduction to Python https://app.datacamp.com/learn/courses/intro-to-python-for-data-science
+1. Introduction to Python 
 2. Intermediate Python
 3. Python Data Science Toolbox (Part1)
 4. Python Data Science Toolbox (Part2)
