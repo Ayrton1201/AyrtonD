@@ -6,6 +6,7 @@ In dit document ga ik mijn portfolio laten zien voor de Data Science minor.
 
 <h3>DataCamp</h3>
 
+Mijn progressie voor de Datacamp course kan bekeken worden in datacamp_score.png en datacamp_voltooid.png
 
 
 <h3>Data Cleaning</h3>
