@@ -1,12 +1,15 @@
 <h1>AyrtonD DataScienceMinor Portfolio</h1>
 
 In dit document ga ik mijn portfolio laten zien voor de Data Science minor.
+Gemaakt door Ayrton Donderwinkel 22140468
 
-<h2>DataScienceMinor</h2>
+<h2>Verplicht gedeelte</h2>
 
 <h3>DataCamp</h3>
 
-Mijn progressie voor de Datacamp course kan bekeken worden in "datacamp score.png" en "datacamp lessen voltooid.png".
+Mijn progressie voor de Datacamp course kan bekeken worden in:
+"datacamp score.png"  
+"datacamp lessen voltooid.png"
 
 <h3>Container project</h3>
 
