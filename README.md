@@ -7,7 +7,20 @@ Aangezien ik een externe student ben en in het begin eerst nog Datacamp moest do
 Nadat blok 1 voorbij was en dus het foodboost project begonnen we met het container project waarbij we besloten om reinforcement learning modellen toe te passen.
 Hier heb ik achteraf gezien teveel tijd in gestoken en ik kwam er (te laat) achter dat ik niet veel werk kon inleveren voor mijn portfolio en dus besloot ik om zelfstandig een model te maken.
 
-<h2>Verplicht gedeelte</h2>
+## Table of Contents
+- [Datacamp](#Chapter-1)
+- [Chapter 2](#Chapter-2)
+- [Chapter 3](#Chapter-3)
+
+# <a id="Chapter-1"></a> Datacamp
+
+# <a id="Chapter-2"></a> Chapter 2
+## Subsection
+
+# <a id="Chapter-3"></a> Chapter 3
+## Subsection
+
+
 
 <h3>DataCamp</h3>
 
