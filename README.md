@@ -49,7 +49,7 @@ Dit was een externe presentatie die online gegeven werd. De powerpoint hebben Er
 Tijdens de presentatie besprak ik de eerste helft van de powerpoint. Opening, inleiding, onderzoeksopzet, eerste en tweede prototype, en de restricties.
 De presentatie verliep goed en was naar mijn mening duidelijk.
 
-<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/container%20-%20week%2018.pptx">Interne presentatie week 19</a>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/container%20-%20week%2018.pptx">Interne presentatie week 19</a><br>
 In het laatste blok, in week 19, heb ik een interne presentatie gegeven samen met Eric. Dit was een vrij korte presentatie, omdat iedereen vooral bezig is met de portfolio en de paper. Hierbij heb ik de recap verteld en ons huidig werk.
 
 Paper: **********
