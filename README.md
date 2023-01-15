@@ -8,7 +8,8 @@ Gemaakt door Ayrton Donderwinkel 22140468
 <h3>DataCamp</h3>
 
 Mijn progressie voor de Datacamp course kan bekeken worden in:
-<a href="[https://github.com/username/repo/blob/branch/README.md](https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20score.png)">Datacamp score</a>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20score.png">Datacamp score</a>
+
 https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20score.png
 
 "datacamp score.png"  
