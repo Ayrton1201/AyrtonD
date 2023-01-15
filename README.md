@@ -3,34 +3,38 @@
 In dit document ga ik mijn portfolio laten zien voor de Data Science minor.
 Gemaakt door Ayrton Donderwinkel 22140468
 
+Aangezien ik een externe student ben en in het begin eerst nog Datacamp moest doen om uberhaupt iets te kunnen liep ik achter op hetgeen mijn groepje mee bezig was.
+Nadat blok 1 voorbij was en dus het foodboost project begonnen we met het container project waarbij we besloten om reinforcement learning modellen toe te passen.
+Hier heb ik achteraf gezien teveel tijd in gestoken en ik kwam er (te laat) achter dat ik niet veel werk kon inleveren voor mijn portfolio en dus besloot ik om zelfstandig een model te maken.
+
 <h2>Verplicht gedeelte</h2>
 
 <h3>DataCamp</h3>
 
-Mijn progressie voor de Datacamp course kan bekeken worden in:
-<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20score.png">Datacamp score</a>
+Mijn progressie voor de Datacamp course kan bekeken worden in: <br>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20score.png">Datacamp score</a><br>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20lessen%20voltooid.png">Datacamp lessen voltooid</a>
 
-https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20score.png
-
-"datacamp score.png"  
-"datacamp lessen voltooid.png"
+<a href="">Datacamp score</a>
 
 <h3>Container project</h3>
 
-Deze code heb ik volledig zelfstandig en kan ingezien worden in "Ayrton_container_RLmodel.pdf"
-
 Container stacking problem:
 
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_container_RLmodel_GrootVeld.ipynb">Container_Reinforcement_Learning_Groot</a><br>
 Eerst moest er een custom environment gemaakt worden en dit is gedaan door middel van de gym importeren en een class aan te maken.
 In dit model heb ik gewerkt met een x en y grid, dus in de lengte en hoogte, vergelijkbaar met tetris. De containers hebben een eigen prioriteit welke bij voorhand aangegeven wordt en deze wordt in dit model ook net zoals tetris van bovenaf geplaats. Van bovenaf in de best gekozen kolom en telkens een stapje omlaag totdat de container geplaatst kan worden volgens de restricties. 
 Wanneer de container geplaatst kan worden krijgt deze een bepaalde positieve reward en wanneer de container niet geplaatst kan worden dan krijgt het een bepaalde negatieve reward.
 De environment begint met een begin state en na elke step/action wordt de state bijgewerkt tot de state die het op dat moment is.
 Door middel van stablebaselines3 is een DQN model geïmplementeerd die werd gebruikt voor een ruimtelandingsspel.
-Wanneer de total_timesteps op 10.000 gezet wordt dan gaat het model eerst proberen alle containers in 1 dezelfde kolom te plaatsen. Pas met een veel hogere total_timestep begint het model langzaam betere scores te geven. De maximale score wordt niet gehaald, maar dit zal komen doordat de container prioriteit random aangeleverd worden en er misschien ook geen betere oplossing is.
-
-Eerst gebruikte ik Q-learning voor een taxi probleem die online werd opgelost, maar deze koos telkens voor de eerst volgende beste oplossing. Aangezien Q-learning meer voor de korte termijn beste oplossing is. Een DQN model moet veel getraind worden, maar kan op lange termijn wel tot de beste oplossing komen die mogelijk is.
-Dit model zou verder aangepast kunnen worden door te kijken dat de hoge prioriteit strafpunten krijgen wanneer deze richten het midden en onderin geplaats worden. Dat een container niet tussen 2 containers in geplaatst kan worden (door de reachstacker). 
+Wanneer de total_timesteps op 10.000 gezet wordt dan gaat het model eerst proberen alle containers in 1 dezelfde kolom te plaatsen. Pas met een veel hogere total_timestep begint het model betere scores te geven. De maximale score is in dit geval 128 wat betekent dat alle containers uberhaupt geplaatst konden worden.
+De bijbehorende grafiek laat zien dat er op zijn minst een score van 106 behaald wordt en dit betekent dat niet alle containers altijd geplaatst konden worden.
+Dit model zou verder aangepast kunnen worden door te kijken dat de hoge prioriteit strafpunten krijgen wanneer deze richting het midden en onderin geplaatst worden. Dat een container niet tussen 2 containers in geplaatst kan worden (door de reachstacker). 
 Uiteindelijk werkt de environment met het model op een XY as en de grootte en prioriteiten aanpassen werkt allemaal. Dus de volgende stap kan zijn om de environment aan te passen naar een XYZ axis.
+
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_Onlinegame_Taxi.ipynb">OnlineTaxiSpel</a><br>
+Eerst gebruikte ik Q-learning voor een taxi probleem die online werd opgelost, maar deze koos telkens voor de eerst volgende beste oplossing. Aangezien Q-learning meer voor de korte termijn beste oplossing is. Een DQN model moet veel getraind worden, maar kan op lange termijn wel tot de beste oplossing komen die mogelijk is.
+
 
 
 <h3>Foodboost project</h3>
