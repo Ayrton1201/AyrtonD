@@ -7,6 +7,8 @@ Aangezien ik een externe student ben en in het begin eerst nog Datacamp moest do
 Nadat blok 1 voorbij was en dus het foodboost project begonnen we met het container project waarbij we besloten om reinforcement learning modellen toe te passen.
 Hier heb ik achteraf gezien teveel tijd in gestoken en ik kwam er (te laat) achter dat ik niet veel werk kon inleveren voor mijn portfolio en dus besloot ik om zelfstandig een model te maken.
 
+In hoofdstuk "Foodboost project" en subsection "Final model" kan mijn uiteindelijke foodboost model bekeken worden waarin data verwerkt is en er uiteindelijk 3 verschillende modellen gefit en getraind zijn.
+
 ## Table of Contents
 - [Datacamp](#Chapter-1)
 - [Container project](#Chapter-2)
@@ -15,7 +17,8 @@ Hier heb ik achteraf gezien teveel tijd in gestoken en ik kwam er (te laat) acht
     - [Reinforcement Learning model klein (DQN)](#Subsection-3)
 - [Foodboost project](#Chapter-3)
     - [Foodboost versie 1 (Jaggard Coefficient _ Top 10 lekkere recepten _ geen model gefit en getraind)](#Subsection-4)
-    - [Subsection 2](#Subsection-5)
+    - [Decision Tree Classifier Model](#Subsection-5)
+    - [Final model](#Subsection-11)
 - [Communicatie](#Chapter-4)
     - [Presentatie](#Subsection-6)
     - [Paper](#Subsection-7)
@@ -72,7 +75,22 @@ Nu elke tag een bepaald aantal keer voor komt heb ik een dictionary aangemaakt m
 Elk recept gaat de tags langs die voorkomen in dat recept en telt dit bij elkaar op.
 Hiermee heeft elk recept een score gekregen en de top 10 hoogste scores worden uiteindelijk laten zien.
 
-## <a id="Subsection-5"></a> Subsection 2
+## <a id="Subsection-5"></a> Decision Tree Classifier Model
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_DecisionTree.ipynb">Decision Tree Classifier Model</a><br>
+In deze versie ben ik weer vanaf 0 begonnen en geprobeerd om een model te kunnen fitten en trainen.
+Eerst heb ik de tags.csv dataset ingeladen en hiermee alle kolommen weggehaald op de tag kolom na en gefilterd op alle unieke tags die voorkomen.
+Hierna heb ik dezelfde 200 receptenlijst gebruikt als voor foodboost versie 1. Dus dezelfde recepten zijn gerate op wel of niet lekker.
+Daarna heb ik de tags.csv dataset opnieuw ingeladen, zodat alle kolommen er weer zijn.
+En met de functie itterrows ga ik kijken of een bepaalde tag ook voorkomt bij een recept dat ik lekker vind en zo ja dan vult het een 1 neer in een nieuwe tabel die is aangemaakt.
+De tabel bevat een kolom met recepten, kolom met wel of niet lekker, en de rest van de kolommen zijn alle unieke tags die beschikbaar zijn.
+Met deze nieuwe tabel met allemaal 1tjes en 0en kan ik een model gaan fitten en trainen.
+Ik heb in eerste instantie gekozen voor een decision tree classifier. Met 70% als trainingset en 30% als testset.
+Deze laat uiteindelijk een confusion matrix zien met de accuracy, precision, en recall score die eruit komen.
+Er valt te zien dat de scores behoorlijk laag zijn, dit zou kunnen komen dat het model overfit is.
+Er zijn teveel features, ofwel teveel tags in de kolommen. Terwijl veel tags misschien niet eens gebruikt worden of heel weinig in de recepten die ik lekker vind.
+Ook kan het zijn dat de 200 recepten die op wel of niet lekker gerate zijn te weinig is en dus de training data te weinig.
+
+## <a id="Subsection-11"></a> Final model
 
 # <a id="Chapter-4"></a> Communicatie
 ## <a id="Subsection-6"></a> Presentatie
