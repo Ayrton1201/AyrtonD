@@ -9,32 +9,26 @@ Hier heb ik achteraf gezien teveel tijd in gestoken en ik kwam er (te laat) acht
 
 ## Table of Contents
 - [Datacamp](#Chapter-1)
-- [Chapter 2](#Chapter-2)
+- [Container project](#Chapter-2)
+    - [Online Game Taxi](#Subsection-1)
+    - [Reinforcement Learning model groot](#Subsection-2)
+    - [Reinforcement learning model klein](#Subsection-3)
 - [Chapter 3](#Chapter-3)
+    - [Subsection 1](#Subsection-1)
+    - [Subsection 2](#Subsection-2)
+
 
 # <a id="Chapter-1"></a> Datacamp
-
-# <a id="Chapter-2"></a> Chapter 2
-## Subsection
-
-# <a id="Chapter-3"></a> Chapter 3
-## Subsection
-
-
-
-<h3>DataCamp</h3>
-
 Mijn progressie voor de Datacamp course kan bekeken worden in: <br>
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20score.png">Datacamp score</a><br>
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Datacamp%20lessen%20voltooid.png">Datacamp lessen voltooid</a>
 
-<h3>Container project</h3>
-
-Container stacking problem:
-
+# <a id="Chapter-2"></a> Container project
+## <a id="Subsection-1"></a> Online Game Taxi
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_Onlinegame_Taxi.ipynb">OnlineTaxiSpel</a><br>
 Omdat ik eerst nog veel onderzoek moest doen naar verschillende reinforcment learning methodes heb ik eerst gebruikt gemaakt van Q-learning voor een taxi probleem die online werd opgelost, maar deze koos telkens voor de eerst volgende beste oplossing. Aangezien Q-learning meer voor de korte termijn beste oplossing is. Een DQN model moet veel getraind worden, maar kan op lange termijn wel tot de beste oplossing komen die mogelijk is.
 
+## <a id="Subsection-2"></a> Reinforcement Learning model groot
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_container_RLmodel_GrootVeld.ipynb">Container_Reinforcement_Learning_Groot</a><br>
 Maar dan het container stacking probleem zelf.
 Eerst moest er een custom environment gemaakt worden en dit is gedaan door middel van de gym importeren en een class aan te maken.
@@ -47,8 +41,22 @@ De bijbehorende grafiek laat zien dat er op zijn minst een score van 106 behaald
 Dit model zou verder aangepast kunnen worden door te kijken dat de hoge prioriteit strafpunten krijgen wanneer deze richting het midden en onderin geplaatst worden. Dat een container niet tussen 2 containers in geplaatst kan worden (door de reachstacker). 
 Uiteindelijk werkt de environment met het model op een XY as en de grootte en prioriteiten aanpassen werkt allemaal. Dus de volgende stap kan zijn om de environment aan te passen naar een XYZ axis.
 
+## <a id="Subsection-3"></a> Reinforcement learning model klein
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_container_RLmodel_KleinVeld.ipynb">Container_Reinforcement_Learning_Klein</a><br>
 Nu heb ik ook dit zelfde model gebruikt maar dan in een 3 bij 3 en een andere score systeem. De maximale score wordt vaak gehaald, wat betekent dat alle containers geplaatst worden. Alleen valt er te zien dat er vaak een 1 tussen een 2 in zit. Of een 1 op een 2. Dit kan ten eerste komen doordat de containers random aangeleverd worden. Hier kan dus naar gekeken worden om hier extra straffen voor uit te delen.
+
+# <a id="Chapter-3"></a> Chapter 3
+## Subsection
+
+
+<h3>Container project</h3>
+
+Container stacking problem:
+
+
+
+
+
 
 <h3>Foodboost project</h3>
 
