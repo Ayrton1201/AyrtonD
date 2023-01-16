@@ -53,6 +53,16 @@ Uiteindelijk werkt de environment met het model op een XY as en de grootte en pr
 Nu heb ik ook dit zelfde model gebruikt maar dan in een 3 bij 3 en een andere score systeem. De maximale score wordt vaak gehaald, wat betekent dat alle containers geplaatst worden. Alleen valt er te zien dat er vaak een 1 tussen een 2 in zit. Of een 1 op een 2. Dit kan ten eerste komen doordat de containers random aangeleverd worden. Hier kan dus naar gekeken worden om hier extra straffen voor uit te delen.
 
 # <a id="Chapter-3"></a> Foodboost project
+Introductie:
+
+In dit onderzoek zal ik me richten op het voorspellen van de smaak van recepten. Hiervoor zal ik gebruik maken van twee datasets: een dataset met recepten en een dataset met tags. Deze data zal ik analyseren en verwerken om een machine learning model te ontwikkelen dat in staat is om te voorspellen of een recept wel of niet lekker gevonden zal worden door mezelf.
+
+Om dit te realiseren zal ik eerst een literatuuronderzoek uitvoeren om te bepalen welk machine learning model het beste zal passen voor dit specifieke probleem. Er zijn veel verschillende soorten modellen beschikbaar, zoals decision trees, logistische regressie, k-nearest neighbors, en vele andere. Elk van deze modellen heeft zijn eigen unieke voordelen en beperkingen, dus het is belangrijk om de juiste keuze te maken.
+
+Na het literatuuronderzoek zal ik de datasets analyseren en verwerken om ze geschikt te maken voor het geselecteerde machine learning model. Hierna zal ik het model trainen en testen op de verwerkte data. Hierbij zal ik ook verschillende parameters van het model aanpassen om te kijken welke instellingen het beste resultaat opleveren.
+
+Daarna zal ik de resultaten van het model evalueren en analyseren, en besluiten of het model aan de verwachtingen voldoet. Indien nodig zal ik verdere aanpassingen aan het model of de data doen om de voorspellingscapaciteit te verbeteren.
+
 ## <a id="Subsection-4"></a> Foodboost versie 1 (Jaggard Coefficient _ Top 10 lekkere recepten _ geen model gefit en getraind)
 Voor het foodboost project ben ik begonnen met <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_Foodboost_v1.ipynb">Foodboost versie 1</a>.<br>
 Hierin heb ik vooral met data gewerkt om uiteindelijk een lijst te krijgen met top 10 recepten die ik lekker zou vinden, maar hierop is geen machine learning model getraind.
