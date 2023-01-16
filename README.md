@@ -23,9 +23,6 @@ In hoofdstuk "Foodboost project" en subsection "Final model" kan mijn uiteindeli
     - [Presentatie](#Subsection-6)
     - [Paper](#Subsection-7)
 - [Literatuuronderzoek](#Chapter-5)
-    - [Machine Learning types](#Subsection-8)
-    - [Verschillende modellen](#Subsection-9)
-    - [Bibliography](#Subsection-10)
 
 
 # <a id="Chapter-1"></a> Datacamp
@@ -106,23 +103,3 @@ In het laatste blok, in week 19, heb ik een interne presentatie gegeven samen me
 ## <a id="Subsection-7"></a> Paper
 
 # <a id="Chapter-5"></a> Literatuuronderzoek
-## <a id="Subsection-8"></a> Machine Learning types
-## <a id="Subsection-9"></a> Verschillende modellen
-## <a id="Subsection-10"></a> Bibliography
-
-
-
-<h3>Foodboost project</h3>
-
-******
-
-<h3>Communicatie</h3>
-
-
-
-Paper: **********
-
-
-
-
-<h3>Literatuuronderzoek</h3>
