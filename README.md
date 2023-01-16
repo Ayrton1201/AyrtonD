@@ -151,3 +151,6 @@ In het laatste blok, in week 19, heb ik een interne presentatie gegeven samen me
 ## <a id="Subsection-7"></a> Paper
 
 # <a id="Chapter-5"></a> Literatuuronderzoek
+De literatuuronderzoek wat ik heb gedaan kan gevonden worden in deze pdf:
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
+
