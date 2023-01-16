@@ -88,6 +88,54 @@ Er zijn teveel features, ofwel teveel tags in de kolommen. Terwijl veel tags mis
 Ook kan het zijn dat de 200 recepten die op wel of niet lekker gerate zijn te weinig is en dus de training data te weinig.
 
 ## <a id="Subsection-11"></a> Final model
+In deze final model <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_FinalModel.ipynb">Final Model</a> heb ik eerst dezelfde code als in <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_DecisionTree.ipynb">Decision Tree Classifier Model</a> gebruikt en hier een Random Forest Classifier en een SVM aan toegevoegd.
+
+Na het runnen gaf de Decision Tree Classifier:
+- Accuracy = 0.57
+- Precision = 0.75
+- Recall = 0.28
+
+Random Forest Classifier gaf:
+- Accuracy = 0.54
+- Precision = 0.63
+- Recall = 0.31
+
+En de SVM Classifier gaf:
+- Accuracy = 0.64
+- Precision = 0.66
+- Recall = 0.66
+
+Aangezien dit een binair classificatieprobleem is, en het belangrijker is in dit geval om een recept dat lekker is niet te verwarren met een recept dat niet lekker is, kies ik ervoor om precision score te verbeteren.
+Precision is de verhouding van ware positieve voorspellingen die door het model zijn gemaakt uit alle positieve voorspellingen.
+Het is een goede metriek om te gebruiken wanneer alle vals positieven duurder zijn dan vals negatieven.
+
+Het lijkt er op dat in dit geval de Decision Tree Classifier het beste werkt met een precision score van 0.75.
+Maar door het model lijkt mij overfit te zijn en dus ga ik minder features gebruiken. De features (tags) die weinig tot niet gebruikt worden, worden weggehaald.
+En ook zal ik meer data aan de trainingset meegeven en dus nog eens 200 recepten raten op wel of niet lekker.
+
+Nadat ik eerst 200 recepten heb gerate en toegevoegd en de waarde voor test_size en random_state wat heb aangepast kreeg ik slechtere scores.
+Ook nadat ik de kolommen heb verwijderd waarbij een tag minder dan 10 keer voor komt, krijg ik dezelfde of slechtere scores. Alleen de recall score gaat een stuk omhoog.
+
+Bij een aanpassing aan de code was om alleen de kolommen met de tags (aziatisch, hollands, hoofdgerecht) te gebruiken.
+Hierbij ging de precision van elk model omhoog. Alleen werden de scores van elk model ook hetzelfde.
+Precision score:
+Decision Tree Classifier 0.73
+Random Forest Classifier 0.73
+SVM Classifier 0.73
+
+Uiteindelijk teruggegaan naar naar alle kolommen met tags worden laten zien en hierbij de kolommen verwijderd waarvan de tags minder dan 30 keer voorkomen.
+Het lijkt er op dat de Decision Tree Classifier het beste presteert in alle gevallen die zijn geprobeerd.
+In de laatste poging is de precision voor de Decision Tree iets lager dan de 0.75 die er als allereerste uit kwam, maar de accuracy en recall zijn nu ook hoger geworden.
+Precision score:
+Decision Tree Classifier 0.73
+Random Forest Classifier 0.66
+SVM Classifier 0.61
+
+Evaluatie:
+Ik heb de data verwerkt in verschillende stappen en een lijst met tags toegevoegd als kolommen aan een dataframe met recepten die wel of niet lekker zijn.
+Er zijn 3 modellen gefit en getraind en met elkaar vergeleken en gekozen om precision score te verbeteren, omdat dit gaat over verhouding van ware positieve voorspellingen die door het model zijn gemaakt uit alle positieve voorspellingen.
+Door middel van meer input data toe te voegen, model waardes aan te passen, en minder features te gebruiken, is er geprobeerd om de scores van het model te verbeteren.
+
 
 # <a id="Chapter-4"></a> Communicatie
 ## <a id="Subsection-6"></a> Presentatie
