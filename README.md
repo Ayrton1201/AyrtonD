@@ -98,6 +98,12 @@ Er zijn teveel features, ofwel teveel tags in de kolommen. Terwijl veel tags mis
 Ook kan het zijn dat de 200 recepten die op wel of niet lekker gerate zijn te weinig is en dus de training data te weinig.
 
 ## <a id="Subsection-11"></a> Final model
+Een decision tree classifier is een goed model voor deze situatie omdat het in staat is om complexe beslissingsregels te modelleren aan de hand van de beschikbare features (in dit geval de tags). Het maakt gebruik van een boomstructuur waarbij op basis van de waarde van de verschillende features, beslissingen worden genomen over welke klasse (in dit geval wel lekker "1" of niet lekker "0 ") een recept hoort. Het is ook visueel eenvoudig te interpreteren en kan gemakkelijk worden geëvalueerd op basis van de prestaties.
+
+Een random forest classifier is ook een goed model voor deze situatie omdat het een verfijning is van de decision tree classifier. Het maakt gebruik van meerdere decision trees en combineert hun voorspellingen om een meer nauwkeurige voorspelling te krijgen. Dit kan helpen om overfitting te voorkomen, wat kan optreden bij het gebruik van een enkele decision tree.
+
+Een SVM (Support Vector Machine) is een ander type classifier dat ook geschikt kan zijn voor deze situatie. Het maakt gebruik van een complexe analyse van de data om een hyperplane te vinden die de verschillende klassen het beste scheidt. Dit kan in sommige gevallen een hogere nauwkeurigheid opleveren dan een decision tree of random forest classifier. Echter, de interpretabiliteit van de SVM is vaak minder duidelijk dan die van de andere modellen.
+
 In deze final model <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_FinalModel.ipynb">Final Model</a> heb ik eerst dezelfde code als in <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_DecisionTree.ipynb">Decision Tree Classifier Model</a> gebruikt en hier een Random Forest Classifier en een SVM aan toegevoegd.
 
 Na het runnen gaf de Decision Tree Classifier:
@@ -141,10 +147,16 @@ Decision Tree Classifier 0.73
 Random Forest Classifier 0.66
 SVM Classifier 0.61
 
+Visualisatie:
+Hierin heb ik ook de Decision Tree Classifier gevisualiseerd met een Tree structuur die er naar mijn mening vrij aardig eruit ziet.
+Eeen confusion matrix visualisatie, waarbij opvalt dat de True Negatives een stuk hoger ligt dan de rest wat lijkt op dat de niet lekkere recepten vrij goed voorspelt worden.
+Ook valt er een ROC_curve en een precision_recall_curve te zien.
+
 Evaluatie:
 Ik heb de data verwerkt in verschillende stappen en een lijst met tags toegevoegd als kolommen aan een dataframe met recepten die wel of niet lekker zijn.
 Er zijn 3 modellen gefit en getraind en met elkaar vergeleken en gekozen om precision score te verbeteren, omdat dit gaat over verhouding van ware positieve voorspellingen die door het model zijn gemaakt uit alle positieve voorspellingen.
 Door middel van meer input data toe te voegen, model waardes aan te passen, en minder features te gebruiken, is er geprobeerd om de scores van het model te verbeteren.
+Uiteindelijk is er voor de Decision Tree Classifier ook een visualisatie gemaakt.
 
 
 # <a id="Chapter-4"></a> Communicatie
