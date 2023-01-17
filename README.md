@@ -94,6 +94,7 @@ Met deze nieuwe tabel met allemaal 1tjes en 0en kan ik een model gaan fitten en 
 Ik heb in eerste instantie gekozen voor een decision tree classifier. Met 70% als trainingset en 30% als testset.
 Deze laat uiteindelijk een confusion matrix zien met de accuracy, precision, en recall score die eruit komen.
 Er valt te zien dat de scores behoorlijk laag zijn, dit zou kunnen komen dat het model overfit is.
+Ook is er een tree visualisatie te zien, en deze ziet er naar mijn mening niet zo goed uit.
 Er zijn teveel features, ofwel teveel tags in de kolommen. Terwijl veel tags misschien niet eens gebruikt worden of heel weinig in de recepten die ik lekker vind.
 Ook kan het zijn dat de 200 recepten die op wel of niet lekker gerate zijn te weinig is en dus de training data te weinig.
 
