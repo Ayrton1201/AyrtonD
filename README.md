@@ -172,6 +172,8 @@ De presentatie verliep goed en was naar mijn mening duidelijk.
 In het laatste blok, in week 19, heb ik een interne presentatie gegeven samen met Eric. Dit was een vrij korte presentatie, omdat iedereen vooral bezig is met de portfolio en de paper. Hierbij heb ik de recap verteld en ons huidig werk.
 
 ## <a id="Subsection-7"></a> Paper
+<a href="">Paper</a><br>
+Voor de paper heb ik een groot deel van de conclusie geschreven. Het is vooral een samenvatting, omdat de resultaten nog niet bekend waren op het moment van schrijven. Uiteindelijk zou iemand anders de echte conclusie/discussie hier nog aan toevoegen en was het aan iedereen de taak om alles goed door te lezen en te verbeteren waar nodig.
 
 # <a id="Chapter-5"></a> Literatuuronderzoek
 De literatuuronderzoek wat ik heb gedaan kan gevonden worden in deze pdf:
