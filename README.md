@@ -4,7 +4,7 @@ In dit document ga ik mijn portfolio laten zien voor de Data Science minor.
 Gemaakt door Ayrton Donderwinkel 22140468
 
 Aangezien ik een externe student ben en in het begin eerst nog Datacamp moest doen om uberhaupt iets te kunnen liep ik achter op hetgeen mijn groepje mee bezig was.
-Nadat blok 1 voorbij was en dus het foodboost project begonnen we met het container project waarbij we besloten om reinforcement learning modellen toe te passen.
+Nadat blok 1 voorbij was, en dus het foodboost project, begonnen we met het container project waarbij we besloten om reinforcement learning modellen toe te passen.
 Hier heb ik achteraf gezien teveel tijd in gestoken en ik kwam er (te laat) achter dat ik niet veel werk kon inleveren voor mijn portfolio en dus besloot ik om zelfstandig een model te maken.
 
 In hoofdstuk "Foodboost project" en subsection "Final model" kan mijn uiteindelijke foodboost model bekeken worden waarin data verwerkt is en er uiteindelijk 3 verschillende modellen gefit en getraind zijn.
@@ -173,7 +173,7 @@ In het laatste blok, in week 19, heb ik een interne presentatie gegeven samen me
 
 ## <a id="Subsection-7"></a> Paper
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Conclusie.docx">Paper</a><br>
-Voor de paper heb ik een groot deel van de conclusie geschreven. Het is vooral een samenvatting, omdat de resultaten nog niet bekend waren op het moment van schrijven. Uiteindelijk zou iemand anders de echte conclusie/discussie hier nog aan toevoegen en was het aan iedereen de taak om alles goed door te lezen en te verbeteren waar nodig. Ik heb een aantal aanpassingen gemaakt aan het onderdeel "toekomstig werk" nadat er hier feedback over gegeven werd.
+Voor de paper heb ik een groot deel van de conclusie geschreven. Het is vooral een samenvatting, omdat de resultaten nog niet bekend waren op het moment van schrijven. Uiteindelijk zou iemand anders de echte conclusie/discussie hier nog aan toevoegen en was het aan iedereen de taak om alles goed door te lezen en te verbeteren waar nodig. Ik heb een aantal aanpassingen gemaakt aan de onderdelen "abstract" en "toekomstig werk" nadat er hier feedback over werd gegeven.
 
 # <a id="Chapter-5"></a> Literatuuronderzoek
 De literatuuronderzoek wat ik heb gedaan kan gevonden worden in deze pdf:
