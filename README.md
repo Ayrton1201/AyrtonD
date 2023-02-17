@@ -184,9 +184,13 @@ De literatuuronderzoek wat ik heb gedaan kan gevonden worden in deze pdf:
 
 
 # <a id="Chapter-6"></a> Herkansing
-<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
-<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
-<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
-<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
-<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
+Hierin laat ik zien wat ik heb bijgevoegd aan hetgeen ik eerder heb ingeleverd. Met als eerste een nieuw literatuuronderzoek met daarbij wat ik ervan heb toegepast.
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Domain%20Knowledge.pdf">Domain Knowledge</a><br>
+In dit bestand heb ik het jaccard-coefficient bestand aangepast. Jaccard-coefficient is een statistiek. Dit heb ik zo aangepast dat ik een LP model erop kon loslaten, zodat ik 2 recepten per dag kon krijgen met een aantal kcal rond de 1000. Met een score die wordt gemaximaliseerd, score die verkregen is na het jaccard-coefficient model. Uiteindelijk is er een weekschema en 2 plots om de score en kcal per dag te laten zien.
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_Foodboost_Statistiek%20en%20LP%20model.ipynb">Statistiek en LP model</a><br>
+
+In hetgeen hieronder heb ik mijn eerdere model aangepast om een mean accuracy score, training set score, en test set score toe te voegen om te kijken of het model overfit. Het model overfit en ik heb het model zoveel mogelijk proberen te verbeteren in het laatste model, waarbij de accuracy een stuk hoger is dan de 55% in de vorige inlever poging. Dus niet meer gooien met dobbelstenen. In het eerste bestand hieronder heb ik proberen uit te leggen wat ik heb gedaan.
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Foodboost%20model%20herkansing%201.pdf">Machine Learning model</a><br>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_FinalModel-Herkansing.ipynb">Eerder model met Mean Accuracy Score</a><br>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_FinalModel-Herkansing-Improved%20model.ipynb">Final Machine Learning Model</a>
 
