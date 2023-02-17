@@ -195,3 +195,4 @@ In hetgeen hieronder heb ik mijn eerdere model aangepast om een mean accuracy sc
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_FinalModel-Herkansing.ipynb">Eerder model met Mean Accuracy Score</a><br>
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Ayrton_ReceptenTags_FinalModel-Herkansing-Improved%20model.ipynb">Final Machine Learning Model</a>
 
+Volgens mij heb ik, met name in het Statistiek en LP model, ook data preprocessing toegepast.
