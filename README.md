@@ -23,6 +23,7 @@ In hoofdstuk "Foodboost project" en subsection "Final model" kan mijn uiteindeli
     - [Presentatie](#Subsection-6)
     - [Paper](#Subsection-7)
 - [Literatuuronderzoek](#Chapter-5)
+- [Herkansing](#Chapter-6)
 
 
 # <a id="Chapter-1"></a> Datacamp
@@ -177,5 +178,15 @@ Voor de paper heb ik een groot deel van de conclusie geschreven. Het is vooral e
 
 # <a id="Chapter-5"></a> Literatuuronderzoek
 De literatuuronderzoek wat ik heb gedaan kan gevonden worden in deze pdf:
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
+
+
+
+
+# <a id="Chapter-6"></a> Herkansing
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
+<a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
 <a href="https://github.com/Ayrton1201/AyrtonD/blob/main/Literatuuronderzoek_Ayrton.pdf">Literatuuronderzoek</a>
 
